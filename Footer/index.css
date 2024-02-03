@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Electrolize&family=Indie+Flower&family=Noto+Sans:wght@500&family=Nunito+Sans:opsz,wght@6..12,300&family=Poppins:wght@300&family=Roboto+Condensed:wght@700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Noto Sans", sans-serif !important;
+}
+
+body {
+}
+
+h2 {
+  color: white;
+  padding-bottom: 10px;
+}
+p {
+  padding-top: 5px;
+}
+li {
+  padding-top: 5px;
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(to right, rgb(37, 22, 22), black);
+  border-top-left-radius: 100px;
+  line-height: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 200px 50px 200px;
+}
+
+.first img {
+  height: 70px;
+  width: 200px;
+}
+
+/* Second row */
+
+.second {
+  color: #8d8d8d;
+}
+
+.second a {
+  color: inherit;
+}
+.second a:hover {
+  color: white;
+  transition: color 0.5s ease;
+}
+
+/* Third row */
+
+.third {
+  color: #8d8d8d;
+}
+.third ul li {
+  list-style-type: none;
+}
+.third ul li:hover {
+  cursor: pointer;
+  color: white;
+  transition: color 0.5s ease;
+}
+
+/* Fourth row */
+
+.fourth {
+  color: #8d8d8d;
+}
+
+.fourth ul li {
+  color: #8d8d8d;
+  list-style-type: none;
+}
+.fourth ul li:hover {
+  cursor: pointer;
+  color: white;
+  transition: color 0.5s ease;
+}
+
+hr {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+  h2 {
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 20px;
+  }
+  .first img {
+    height: 70px;
+    width: 200px;
+    padding-bottom: 30px;
+  }
+
+  footer {
+    bottom: unset;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    border-color: green;
+    border-width: thick;
+
+    padding-right: 100px;
+    margin-right: 500px;
+    width: 40%;
+  }
+}
